@@ -7,7 +7,7 @@ use Module::License::Report::CPANPLUS;
 use Carp;
 use English qw(-no_match_vars);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME 
 
@@ -195,7 +195,7 @@ sub license_chain
       my $license = $self->license($mod_name);
       if (!$license)
       { 
-         carp "Can't find a license for $mod_name";
+         warn "Can't find a license for $mod_name\n";
       }
       else
       {

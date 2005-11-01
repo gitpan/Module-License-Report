@@ -1,3 +1,16 @@
+2005-11-01 17:58  chris
+
+	* Build.PL: typo
+
+2005-11-01 17:57  chris
+
+	* Build.PL, MANIFEST, bin/license-report,
+	  lib/Module/License/Report.pm,
+	  lib/Module/License/Report/CPANPLUS.pm,
+	  lib/Module/License/Report/CPANPLUSModule.pm,
+	  lib/Module/License/Report/Object.pm: v0.02 Add command line
+	  program
+
 2005-11-01 17:28  chris
 
 	* lib/Module/License/: Report.pm, Report/CPANPLUS.pm,

@@ -18,6 +18,6 @@ Module::Build->new(
       'Test::More' => 0,
       'Test::MockObject' => 0,
    },
-   #script_files => ['bin/module-licenses'],
+   script_files => ['bin/license-report'],
    add_to_cleanup => [ 'Module-License-Report-*' ],
 )->create_build_script;

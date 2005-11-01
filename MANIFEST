@@ -1,4 +1,5 @@
 index.html
+bin/license-report
 Build.PL
 ChangeLog
 lib/Module/License/Report.pm
@@ -9,6 +10,10 @@ LICENSE
 MANIFEST			This list of files
 META.yml
 README
+t/lib/Mockery.pm
+t/license.t
+t/pod-coverage.t
+t/pod.t
 t/sample/CPANPLUS/META.yml
 t/sample/File-Slurp/Build.PL
 t/sample/File-Slurp/lib/File/Slurp.pm
@@ -21,7 +26,3 @@ t/sample/Unknown-License/Build.PL
 t/sample/Unknown-License/Makefile.PL
 t/sample/Unknown-License/README
 t/sample/YAML/README
-t/lib/Mockery.pm
-t/license.t
-t/pod-coverage.t
-t/pod.t

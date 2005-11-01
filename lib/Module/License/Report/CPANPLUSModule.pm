@@ -8,7 +8,7 @@ use File::Spec qw();
 use Module::License::Report::Object;
 use YAML qw();
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 # This is a translation from CPAN "dslip" codes to Module::Build YAML codes
 #   From: http://cpan.uwinnipeg.ca/htdocs/faqs/dslip.html

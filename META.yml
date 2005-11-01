@@ -1,6 +1,6 @@
 ---
 name: Module-License-Report
-version: 0.01
+version: 0.02
 author:
   - 'Clotho Advanced Media, Inc. <cpan@clotho.com>'
 abstract: Determine the license of a module
@@ -20,14 +20,14 @@ build_requires:
 provides:
   Module::License::Report:
     file: lib/Module/License/Report.pm
-    version: 0.01
+    version: 0.02
   Module::License::Report::CPANPLUS:
     file: lib/Module/License/Report/CPANPLUS.pm
-    version: 0.01
+    version: 0.02
   Module::License::Report::CPANPLUSModule:
     file: lib/Module/License/Report/CPANPLUSModule.pm
-    version: 0.01
+    version: 0.02
   Module::License::Report::Object:
     file: lib/Module/License/Report/Object.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.2611
